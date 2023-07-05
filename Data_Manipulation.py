@@ -20,11 +20,10 @@ supervisoriofinal = pd.DataFrame() # Variavel do tipo data frame que ira conter 
 #                         Abertura do Arquivo                                    #
 ##################################################################################
 
-abrir = "/content/humberto.csv" # variavel que guarda o caminho do arquivo
+abrir = input("Digite o nome do arquivo para tratamento de daods: ") # variavel que guarda o caminho do arquivo
+filename = abrir+".xlsx" #nome do arquivo de saida
 
 abre_Arquivo = pd.read_csv(abrir,encoding='ISO-8859-1', delimiter = ';') #variavel do tipo data frame que guardara o arquivo
-
-filename = "humberto.xlsx" #nome do arquivo de saida
 
 ##################################################################################
 #                         Formatacao do Arquivo                                  #
