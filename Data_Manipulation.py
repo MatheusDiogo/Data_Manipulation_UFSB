@@ -10,7 +10,7 @@ import re
 ##################################################################################
 #                         Inicializando variaveis                                #
 ##################################################################################
-NumR = 16; #Numero de linhas para repetição
+NumR = input("Digite o número de linhas até a repetição dos dados: "); #Numero de linhas para repetição
 lstIteracao = [] # Variavel do tipo lista que ira conter os conteudos dos blocos de 17 linhas na iteracao
 listsupervisorio = [] # Variavel do tipo lista que ira conter o conteudo do arquivo .csv
 newlistsupervisorio = [] # Variavel do tipo lista que ira receber a lista com o conteudo sem caracteres indesejados
@@ -20,7 +20,7 @@ supervisoriofinal = pd.DataFrame() # Variavel do tipo data frame que ira conter 
 #                         Abertura do Arquivo                                    #
 ##################################################################################
 
-abrir = input("Digite o nome do arquivo para tratamento de daods: ") # variavel que guarda o caminho do arquivo
+abrir = input("Digite o nome do arquivo para tratamento de dados: ") # variavel que guarda o caminho do arquivo
 filename = abrir+".xlsx" #nome do arquivo de saida
 
 abre_Arquivo = pd.read_csv(abrir,encoding='ISO-8859-1', delimiter = ';') #variavel do tipo data frame que guardara o arquivo
