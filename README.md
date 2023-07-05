@@ -5,7 +5,7 @@
 <p>O código inicializa as seguintes variáveis:</p>
 <ul>
   <li><strong>NumR:</strong> Número de linhas para repetição.</li>
-  <li><strong>lstIteracao:</strong> Lista que contém os conteúdos dos blocos de 17 linhas durante a iteração.</li>
+  <li><strong>lstIteracao:</strong> Lista que contém os conteúdos dos blocos de linhas durante a iteração.</li>
   <li><strong>listsupervisorio:</strong> Lista que contém o conteúdo do arquivo .csv.</li>
   <li><strong>newlistsupervisorio:</strong> Lista que receberá o conteúdo sem caracteres indesejados.</li>
   <li><strong>supervisoriofinal:</strong> DataFrame que conterá a formatação final desejada.</li>
